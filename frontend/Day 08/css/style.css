@@ -1,0 +1,39 @@
+:root {
+      --color-primary: blue;
+      --color-primary-light: #E24E3F;
+      --active-color: white;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+main {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+}
+
+.grid-container {
+      max-width: 400px;
+      width: 80%;
+      height: 65vh;
+      display: grid;
+      grid-template-columns: repeat(20, 1fr);
+      background-color: var(--color-primary);
+}
+
+.grid-item {
+      border: 1px solid var(--color-primary-light);
+}
+
+.grid-item:hover {
+      background-color: var(--color-primary-light);
+}
+
+.active, .active:hover {
+      border: 1px solid var(--active-color);
+      background-color: var(--active-color);
+}
