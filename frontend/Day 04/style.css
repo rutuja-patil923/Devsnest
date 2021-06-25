@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+}
+
+.first {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      position: relative;
+}
+.outline1 {
+      border-radius: 50%;
+      border: 4px solid black;
+      width: 480px;
+      height: 480px;
+}
+.mid {
+      border-radius: 50%;
+      border: 40px solid red;
+      width: 400px;
+      height: 400px;
+}
+
+.outline2{
+      border-radius: 50%;
+      border: 4px solid black;
+      width: 394px;
+      height: 394px;
+}
+.hand1 {
+      position: relative;
+      height: 5px;
+      width: 150px;
+      left: 50px;
+      top: 201px;
+      transform: rotate(240deg);
+      transform-origin: center right;
+      background-color: black;
+}
+
+.hand2 {
+      position: relative;
+      height: 5px;
+      width: 150px;
+      left: 50px;
+      top: 201px;
+      transform: rotate(290deg);
+      transform-origin: center right;
+      background-color: black;
+}
+
+.hand3 {
+      position: relative;
+      height: 5px;
+      width: 150px;
+      left: 200px;
+      top: 196px;
+      background-color: black;
+}

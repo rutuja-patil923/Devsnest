@@ -1,0 +1,14 @@
+
+.letter {
+	width: 50%;
+	margin: auto;
+	margin-top: 30px;
+	border: 1px solid black;
+	padding: 30px;
+	background-color: #e6f9ff;
+	font-family: 'Architects Daughter', cursive;
+}
+
+.letter p{
+	font-size: 20px;
+}
