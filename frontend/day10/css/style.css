@@ -1,0 +1,60 @@
+:root {
+      --front-color: #6A8D92;
+      --back-color: #493548;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+h1 {
+      text-align: center;
+      margin-top: 2em;
+}
+
+main {
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.container {
+      width: 50%;
+      height: 60vh;
+      display: grid;
+      gap: 1em;
+      grid-template: repeat(4, 1fr)/ repeat(4, 1fr);
+}
+
+.card {
+      position: relative;
+      perspective: 50em;
+      transition: transform 1s;
+      transform-style: preserve-3d;
+}
+
+.flip {
+      transform: rotateY(180deg);
+}
+
+.front, .back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+}
+
+.front {
+      background-color: var(--front-color);
+}
+
+.back {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2.5rem;
+      background-color: var(--back-color);
+      transform: rotateY(180deg);
+}

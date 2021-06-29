@@ -1,0 +1,99 @@
+:root {
+      --background-color: #b8bac6;
+}
+
+* {
+      margin: 0;
+      padding: 0;
+}
+
+::-webkit-scrollbar {
+      width: 0;
+      /* Remove scrollbar space */
+      background: transparent;
+      /* Optional: just make scrollbar invisible */
+}
+
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: sans-serif;
+}
+
+main {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 30%;
+      height: 90vh;
+      border-radius: 2em;
+      background-color: var(--background-color);
+      overflow: hidden;
+}
+
+h2 {
+      font-weight: normal;
+      margin: 1em 0 1em 0;
+}
+
+ul {
+      list-style: none;
+}
+
+li{
+      margin: 0.5em 0 0.5em 0;
+}
+
+label {
+      margin-left: 0.5em;
+}
+
+.container {
+      width: 100%;
+      margin-bottom: 0.5em;
+      overflow-y: auto;
+}
+
+.todos {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+}
+
+.todo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 90%;
+      padding: 0.5em;
+      background-color: white;
+      border-radius: 0.5em;
+}
+
+.create-todo {
+      display: flex;
+      justify-content: space-between;
+      width: 90%;
+      margin: auto 0 1em 0;
+}
+
+.todo-input {
+      border-radius: 0.5em;
+      border: 1px solid black;
+      height: 1.5em;
+      display: block;
+      padding: 0.5em;
+      flex: 1;
+}
+
+.add-button {
+      margin-left: 1em;
+      display: flex;
+      align-items: center;
+      background-color: white;
+      padding: 0.5em;
+      font-size: 0.7rem;
+      border-radius: 0.5em;
+}
