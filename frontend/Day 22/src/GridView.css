@@ -1,0 +1,11 @@
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.GridView{
+    padding: 1em;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+}

@@ -1,0 +1,12 @@
+.MemePage{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs, .actions{
+    margin: 1em 0;
+}
